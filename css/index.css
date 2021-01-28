@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #00AFBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--profilcard {
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 140px 150px 1fr;
+    grid-template-areas:
+    "headerbg"
+    "infocard"
+    "infofollowers";
+}
+
+.container--profilcard--headerbg {
+    grid-area: headerbg;
+}
+.container--profilcard--headerbg--img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+.container--profilcard--infocard {
+    grid-area: infocard;
+
+}
+.container--profilcard--infocard--wrapp {
+    text-align: center;
+    position: relative;
+    top: -25px;
+    height: 75px;
+    border-bottom: 1px solid lightgrey;
+}
+.container--profilcard--infocard--wrapp--h1--bold--inline {
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container--profilcard--infocard--wrapp--h2--inline {
+    display: inline;
+    font-size: 18px;
+    color: #898A8E;
+    font-weight: 20;
+}
+.container--profilcard--infocard--wrapp--h3 {
+    font-size: 10px;
+    color: #898A8E;
+    font-weight: 20;
+}
+
+.container--profilcard--infocard--imgprofil {
+    position: relative;
+    top: -50px;
+
+}
+.container--profilcard--infocard--imgprofil--img--radius {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.container--profilcard--infofollowers {
+    grid-area: infofollowers;
+    display: grid;
+    grid-template-columns: 130px 1fr 130px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "sub likes photos";
+    align-items: center;
+}
+.containter--profilcard--infofollowers--sub {
+    grid-area: sub;
+    text-align: center;
+}
+.container--profilcard--infofollowers--sub--h1 {
+    font-size: 18px;
+}
+.container--profilcard--infofollowers--sub--h2 {
+    font-size: 10px;
+    color: #898A8E;
+    font-weight: 20;
+}
+.container--profilcard--infofollowers--likes {
+    grid-area: likes;
+    text-align: center;
+}
+.container--profilcard--infofollowers--likes--h1 {
+    font-size: 18px;
+}
+.container--profilcard--infofollowers--likes--h2 {
+    font-size: 10px;
+    color: #898A8E;
+    font-weight: 20;
+}
+.container--profilcard--infofollowers--photos {
+    grid-area: photos;
+    text-align: center;
+}
+.container--profilcard--infofollowers--photos--h1 {
+    font-size: 18px;
+}
+.container--profilcard--infofollowers--photos--h2 {
+    font-size: 10px;
+    font-weight: 20;
+    color: #898A8E;
+}
+
+
+
+

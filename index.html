@@ -1,35 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/index.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <div class="container">
 
-  803K
-  Likes
+    <div class="container--profilcard">
+      <div class="container--profilcard--headerbg">
+        <img src="images/bg-pattern-card.svg" alt="" class="container--profilcard--headerbg--img">
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="container--profilcard--infocard">
+        <div class="container--profilcard--infocard--imgprofil">
+          <img src="images/image-victor.jpg" alt="" class="container--profilcard--infocard--imgprofil--img--radius">
+        </div>
+        <div class="container--profilcard--infocard--wrapp">
+          <h1 class="container--profilcard--infocard--wrapp--h1--bold--inline">Victor Crest</h1>
+          <h2 class="container--profilcard--infocard--wrapp--h2--inline">26</h2>
+          <h3 class="container--profilcard--infocard--wrapp--h3">London</h3>
+        </div>
+      </div>
+
+      <div class="container--profilcard--infofollowers">
+        <div class="containter--profilcard--infofollowers--sub">
+          <h1 class="container--profilcard--infofollowers--sub--h1">80k</h1>
+          <h2 class="container--profilcard--infofollowers--sub--h2">Followers</h2>
+        </div>
+        <div class="container--profilcard--infofollowers--likes">
+          <h1 class="container--profilcard--infofollowers--likes--h1">803k</h1>
+          <h2 class="container--profilcard--infofollowers--likes--h2">Likes</h2>
+        </div>
+        <div class="container--profilcard--infofollowers--photos">
+          <h1 class="container--profilcard--infofollowers--photos--h1">1.4k</h1>
+          <h2 class="container--profilcard--infofollowers--photos--h2">Photos</h2>
+        </div>
+      </div>
+    </div>
   </div>
+
 </body>
 </html>
+
+<!--
+
+
+
+-->
